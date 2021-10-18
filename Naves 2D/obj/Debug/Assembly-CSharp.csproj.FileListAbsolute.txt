@@ -1,0 +1,2 @@
+C:\Users\juanc\Naves 2D\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Users\juanc\Naves 2D\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
