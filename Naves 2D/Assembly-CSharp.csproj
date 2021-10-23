@@ -70,6 +70,7 @@
     <Compile Include="Assets\Asserts Ful\ASSETS 2D SPACES\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Asserts Ful\ASSETS 2D SPACES\2D Space Kit\Scripts\ShipCamera.cs" />
     <Compile Include="Assets\Asserts Ful\ASSETS 2D SPACES\StarfieldMaterials\Scripts\Move.cs" />
+    <Compile Include="Assets\cap.cs" />
     <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\Scripts\LaserTriple.cs" />
     <Compile Include="Assets\Scripts\MovimientoPlayer.cs" />

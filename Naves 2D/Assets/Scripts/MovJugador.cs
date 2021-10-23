@@ -11,6 +11,7 @@ public class MovJugador: MonoBehaviour
     public int vidasJugador = 3;
     public GameObject disparoL;
     public GameObject disparoLT;
+    public bool disparoTriple=true;
     void Start()
     {
         velocidad = 5.0f; 
@@ -77,7 +78,20 @@ public class MovJugador: MonoBehaviour
            // Instantiate(disparoL, transform.position + new Vector3(0, 1.5f, -0.82f), Quaternion.identity);
           //  Instantiate(disparoL, transform.position + new Vector3(0, 3f, -0.82f), Quaternion.identity);
         }
-    }  
+    }
+    void disparoTriple()
+    {
+        if (Input.GetKey(KeyCode.Space))
+        {
+            Instantiate(disparoL, transform.position + new Vector3(0, 0, -0.82f), Quaternion.identity);
+            Instantiate(disparoL, transform.position + new Vector3(0, 1.5f, -0.82f), Quaternion.identity);
+            Instantiate(disparoL, transform.position + new Vector3(0, 3f, -0.82f), Quaternion.identity);
+        }
+        else if (Input.GetKey(KeyCode.Space))
+        {
+            Instantiate(distamce
+        }
+    }
 
     void disparoPersonajeTriple()
     {

@@ -49,3 +49,6 @@ TagManager:
   - name: Jugador
     uniqueID: 4121127421
     locked: 0
+  - name: Power ups
+    uniqueID: 3260133431
+    locked: 0
