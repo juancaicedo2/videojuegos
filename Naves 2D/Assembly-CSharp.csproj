@@ -70,12 +70,12 @@
     <Compile Include="Assets\Asserts Ful\ASSETS 2D SPACES\2D Space Kit\Scripts\PSDestroy.cs" />
     <Compile Include="Assets\Asserts Ful\ASSETS 2D SPACES\2D Space Kit\Scripts\ShipCamera.cs" />
     <Compile Include="Assets\Asserts Ful\ASSETS 2D SPACES\StarfieldMaterials\Scripts\Move.cs" />
-    <Compile Include="Assets\cap.cs" />
     <Compile Include="Assets\Scripts\Laser.cs" />
     <Compile Include="Assets\Scripts\LaserTriple.cs" />
     <Compile Include="Assets\Scripts\MovimientoPlayer.cs" />
     <Compile Include="Assets\Scripts\MovJugador.cs" />
-    <Compile Include="Assets\Speed.cs" />
+    <Compile Include="Assets\Scripts\Speed.cs" />
+    <Compile Include="Assets\Scripts\Triple Shot.cs" />
     <None Include="Assets\Asserts Ful\ASSETS 2D SPACES\2D Space Kit\Scripts\WARNING.txt" />
     <None Include="Assets\Asserts Ful\ASSETS 2D SPACES\2D Space Kit\Backgrounds\Background Tip.txt" />
     <None Include="Assets\Asserts Ful\ASSETS 2D SPACES\2D Space Kit\Ships and Stations\Rendering Tip.txt" />

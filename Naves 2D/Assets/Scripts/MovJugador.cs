@@ -13,6 +13,7 @@ public class MovJugador: MonoBehaviour
     public GameObject disparoLT;
     [SerializeField ]
     public bool disparoTriple=false;
+    public bool velocidadAumentada= false;
     void Start()
     {
         velocidad = 5.0f; 
