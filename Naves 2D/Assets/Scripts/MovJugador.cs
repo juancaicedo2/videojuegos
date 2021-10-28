@@ -84,7 +84,7 @@ public class MovJugador: MonoBehaviour
     }
     void disparoTriples()
     {
-        if (disparoTriple=true &&  Input.GetKey(KeyCode.Space))
+        if (disparoTriple==true &&  Input.GetKey(KeyCode.Space))
         {
             Instantiate(disparoL, transform.position + new Vector3(0, 0, -0.82f), Quaternion.identity);
             Instantiate(disparoL, transform.position + new Vector3(0, 1.5f, -0.82f), Quaternion.identity);
