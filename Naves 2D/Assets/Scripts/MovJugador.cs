@@ -11,7 +11,8 @@ public class MovJugador: MonoBehaviour
     public int vidasJugador = 3;
     public GameObject disparoL;
     public GameObject disparoLT;
-    public bool disparoTriple=true;
+    [SerializeField ]
+    public bool disparoTriple=false;
     void Start()
     {
         velocidad = 5.0f; 
@@ -29,6 +30,7 @@ public class MovJugador: MonoBehaviour
         disparoPersonaje();
 
         disparoPersonajeTriple();
+        disparoTriples();
     }
 
      void movimientoPersonaje()
@@ -72,16 +74,16 @@ public class MovJugador: MonoBehaviour
 
     void disparoPersonaje()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.X))
         {
             Instantiate(disparoL, transform.position + new Vector3(0, 0, -0.82f), Quaternion.identity);
            // Instantiate(disparoL, transform.position + new Vector3(0, 1.5f, -0.82f), Quaternion.identity);
           //  Instantiate(disparoL, transform.position + new Vector3(0, 3f, -0.82f), Quaternion.identity);
         }
     }
-    void disparoTriple()
+    void disparoTriples()
     {
-        if (Input.GetKey(KeyCode.Space))
+        if (disparoTriple=true &&  Input.GetKey(KeyCode.Space))
         {
             Instantiate(disparoL, transform.position + new Vector3(0, 0, -0.82f), Quaternion.identity);
             Instantiate(disparoL, transform.position + new Vector3(0, 1.5f, -0.82f), Quaternion.identity);
@@ -89,7 +91,7 @@ public class MovJugador: MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.Space))
         {
-            Instantiate(distamce
+            Instantiate(disparoL, transform.position + new Vector3(0, 1.5f, -0.82f), Quaternion.identity);
         }
     }
 
@@ -97,7 +99,7 @@ public class MovJugador: MonoBehaviour
     {
         if(Input.GetKey(KeyCode.Z))
         {
-            Instantiate(disparoLT, transform.position + new Vector3(0, 1.5f, -0.82f), Quaternion.identity);
+            Instantiate(disparoL, transform.position + new Vector3(0, 1.5f, -0.82f), Quaternion.identity);
         }
     }
 

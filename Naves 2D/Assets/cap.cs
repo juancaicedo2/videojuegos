@@ -17,4 +17,11 @@ public class cap : MonoBehaviour
     {
         transform.Translate(Vector3.down * velocidadUp * Time.deltaTime);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        MovJugador nave = other.GetComponent<MovJugador>();
+        nave.disparoTriple = true;
+        Destroy(this.gameObject);
+    }
 }
