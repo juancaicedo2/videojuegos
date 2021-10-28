@@ -20,8 +20,6 @@ public class Speed : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         MovJugador nave = other.GetComponent<MovJugador>();
-        nave.velocidad = 10f;
-        nave.velocidadUp = 10f;
         Destroy(this.gameObject);
     }
 }
