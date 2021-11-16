@@ -236,7 +236,7 @@ MonoBehaviour:
   disparoLT: {fileID: 469251662892753710, guid: 736205a07cd00de4c815613599212608,
     type: 3}
   disparoTriple: 0
-  velocidadAumentada: 0
+  velocidadAumentada: 1
 --- !u!212 &861347030
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -295,7 +295,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861347028}
   m_LocalRotation: {x: 0, y: 0.04588608, z: 0, w: 0.99894667}
-  m_LocalPosition: {x: -0.18, y: -1.75, z: -1.36}
+  m_LocalPosition: {x: -0.26, y: -2.58, z: -1.36}
   m_LocalScale: {x: 0.37437826, y: 0.37437826, z: 0.37437826}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1010,6 +1010,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7157832185425577160, guid: 3587186a2b3fe544884700c316918141,
+        type: 3}
+      propertyPath: disparoTriple
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7157832185425577160, guid: 3587186a2b3fe544884700c316918141,
+        type: 3}
+      propertyPath: velocidadAumentada
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7157832185425577161, guid: 3587186a2b3fe544884700c316918141,
         type: 3}
       propertyPath: m_Name
@@ -1020,20 +1030,15 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7157832185425577160, guid: 3587186a2b3fe544884700c316918141,
-        type: 3}
-      propertyPath: disparoTriple
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7157832185425577162, guid: 3587186a2b3fe544884700c316918141,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18
+      value: -0.26
       objectReference: {fileID: 0}
     - target: {fileID: 7157832185425577162, guid: 3587186a2b3fe544884700c316918141,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.75
+      value: -2.58
       objectReference: {fileID: 0}
     - target: {fileID: 7157832185425577162, guid: 3587186a2b3fe544884700c316918141,
         type: 3}

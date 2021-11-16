@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class cap : MonoBehaviour
+public class tripleShot : MonoBehaviour
 {
     private float velocidadUp = 3.5f;
 
